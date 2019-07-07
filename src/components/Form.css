@@ -1,0 +1,23 @@
+input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 3px #f16051;
+    width: 60%;
+    margin: 20% 20% 0%;
+    text-align: center;
+    padding-bottom: 4px;
+    color: #fff !important;
+    letter-spacing: 2px;
+    font-size: 18px;
+    outline: none;
+    outline-style: none;
+}
+
+@media (max-width: 500px) {
+    input[type="text"] {
+
+        font-size: 11px;
+
+    }
+
+}
